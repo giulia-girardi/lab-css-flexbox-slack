@@ -8,3 +8,220 @@ paragraph yellow: #ECB12F
 links blue: #2E71A6
 footer links grey: #454245
 */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body { 
+    font-family: sans-serif;
+    line-height: 1.85em;
+    width: 100%;
+}
+nav {
+    background-color: #540B51;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 15px;
+    position: fixed;
+    align-items: center;
+}
+#logo {
+    max-height: 30px;
+}
+header {
+    padding-top: 60px;
+    background-color: #540B51;
+    color: white;
+    text-align: center;
+}
+.buttons-box {
+    display: flex;
+    flex-direction: column;
+    padding: 3%;
+    justify-content: center;
+    align-items: center;
+}
+.image {
+    max-width: 100%;
+}
+.uppercase {
+    text-transform: uppercase;
+}
+.header-text h1 {
+    padding: 5% 12%;
+}
+.header-text p {
+    padding: 5%;
+}
+.gold {
+    color: #ECB12F;
+    font-weight: bold;
+}
+.white-button {
+    border-radius: 5px;
+    border-color: white;
+    color: #540B51;
+    padding: 2.5%;
+    margin: 3%;
+    width: 95%;
+}
+.google-signup-button {
+    display: flex;
+    background-color: #4285F4;
+    padding: 1%;
+    color: white;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 50px;
+    border-radius: 5px;
+    width: 95%;
+}
+.google-signup-button img {
+    max-height: 45px;
+    background-color: white;
+    border-radius: 3px;
+}
+.screenshot-home {
+    padding-top: 5%;
+    height: 300px;
+}
+.trusted { 
+    text-align: center;
+}
+.trusted-logos {
+    display: flex;
+    padding-top: 5%;
+    padding-bottom: 10%;
+    flex-direction: column;
+    justify-content: center;
+}
+.logo {
+    max-height: 35px;
+    margin: 3%;
+}
+.trusted p {
+    font-size: 0.8rem;
+    padding-top: 10%;
+}
+.first-row {
+    display: flex;
+    justify-content: space-around;
+}
+.second-row {
+    display: flex;
+    justify-content: space-around;
+}
+.text-padding {
+    padding: 10% 5%;
+}
+.ivory-bkgd {
+    background-color: #F3EAE2;
+}
+.text-padding h2 {
+    padding-bottom: 5%;
+}
+.text-padding p {
+    padding-bottom: 5%;
+}
+.text-padding a {
+    text-decoration: #2E71A6;
+}
+.text-padding::after {
+    content: "\00bb";
+    display: inline-block;
+}
+#main {
+    position: relative;
+    top: -60px;
+}
+.statistics-section {
+    padding: 5%;
+    text-align: center;
+}
+.button-purple {
+    border-radius: 5px;
+    border-color: #540B51;
+    background-color: #540B51;
+    color: white;
+    padding: 2.5%;
+    margin: 2%;
+    width: 95%;
+}
+.button-outline{
+    border-radius: 5px;
+    border-color: #540B51;
+    background-color: white;
+    color: #540B51;
+    padding: 2.5%;
+    width: 95%;
+}
+.stat-number {
+    color: #540B51;
+    font-size: 2.8rem;
+}
+.stats-list {
+    padding: 10% 20%;
+    list-style: none;
+    font-weight: bold;
+}
+.last-section {
+    background-color: #540B51;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 5%;
+    border-bottom-left-radius: 25%;
+    border-bottom-right-radius: 25%;
+    height: 300px;
+}
+.stats-list li {
+    padding: 5%;
+}
+.standard-padding {
+    padding: 5%;
+}
+.button-outline-purple {
+    border-radius: 5px;
+    border-color: white;
+    background-color: #540B51;
+    color: white;
+    padding: 2.5%;
+    width: 95%;
+}
+.last-section h3 {
+    color: white;
+    padding-top: 5%;
+}
+.footer-link {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 5%;
+    padding-top: 5%;
+}
+.footer-link ul {
+    list-style: none;
+    line-height: 3rem;
+}
+.bold {
+    font-weight: bold;
+}
+.social-icons {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding: 3% 0 ;
+}
+.footer-links-two {
+    line-height: 3rem;
+    list-style: none;
+    padding-top: 5%;
+}
+footer {
+    padding: 5%;
+    border-top-left-radius: -500px;
+}
+.menu-icon {
+    background-color: #540B51;
+}
